@@ -219,39 +219,40 @@ Repeat the pattern.
 
 ## Development
 
-**DEV TOC** [Technologies](#technologies) ● [Concept](#concept) ● [Models](#models) ● [Routes](#routes) ● [Dev Snapshots](#development-snapshots)
+**DEV TOC** [Technologies](#technologies) ● [Concept](#concept) ● [Models](#models) ● [Routes](#routes) ● [Wireframes](#wireframes) ● [Dev Snapshots](#development-snapshots)
 
 </div>
 
 ### Technologies
 
 * Option 1: Just a list
-* Option 3: Icons (ex. simpleicons.org, FontAwesome)
-* Option 4: Shield badges
+* Option 2: Icons (ex. simpleicons.org, FontAwesome)
+* Option 3: Shield badges
 * Bonus Add-on: Group by category. ex:
   - **FRONTEND** JavaScript, React, Redux... 
-  - **BACKEND** Python, Flask... etc.
+  - **BACKEND** Python, Flask...
   - **CATEGORY C** Blah blah blah...
 
 ### Concept
 
-#### Theming & Styling
 **KEYWORDS**&nbsp;&nbsp;&nbsp;&nbsp;
 Refreshing, outdoorsy, clean and simple
 
 **FONTS**&nbsp;&nbsp;&nbsp;&nbsp;
-Fancy Font Foo (logo, h1s/decorative labels), Calibri (sans serif) (body, p), Cambria (serif) (h2-h4, subheaders, small labels), ...
+- Fancy Font Foo *(logo, h1s/decorative labels)*
+- Calibri (sans serif) *(body, p)*
+- Cambria (serif) *(h2-h4, subheaders, small labels)*
 
 **COLORS**&nbsp;&nbsp;&nbsp;&nbsp;
-![PRIMARY #FFFFFF Color Badge](https://img.shields.io/badge/-hex_FFF-fff?style=flat-square)
+- ![PRIMARY #FFFFFF Color Badge](https://img.shields.io/badge/-primary_hex_FFF-fff?style=flat-square)
+- color badge 2
+- color badge 3
 <!-- Color ideas: Primary, secondary, accent, highlight, warning, error, shadow, screen, logo -->
 
 **REFERENCES & INSPIRATION**
-<div align="center">
-
-  [Link A]() | [Link B]() | [Link C]()
-  
-</div>
+- [Link A]() - Notes about the reference.  
+- [Link B]() - Notes  
+- [Link C]() - Notes  
 
 <!-- Gallery example: Three side-by-side images. 'width' attributes set to 32%. Ensure matching canvas ratios for the best appearance. May be good to highlight specific details and close-ups. -->
 <div align="center">
@@ -270,15 +271,6 @@ Fancy Font Foo (logo, h1s/decorative labels), Calibri (sans serif) (body, p), Ca
     alt="Image 3/3" 
     title="" 
     width="32%">
-</div>
-
-#### Wireframes & Templates
-
-<div align="center">
-  <img 
-    src="" 
-    alt="Sketches, diagrams, screengrabs from similar sites for inspiration, mockups in devices like phone frames etc." 
-    title="">
 </div>
 
 ### Models
@@ -337,6 +329,16 @@ Optional *brief* notes about models/database here.
 |  |  |
 
 
+### Wireframes
+
+<div align="center">
+  <img 
+    src="" 
+    alt="Sketches, diagrams, screengrabs from similar sites for inspiration, mockups in devices like phone frames etc." 
+    title="">
+</div>
+
+
 ### Development Snapshots
 
 Link to blog post(s) (dev blog, postmortems, etc), gallery of screenshots, code snippets, thoughts and writing from during dev process.
@@ -351,7 +353,7 @@ Optional *brief* message for those wishing to make contact.
 
 <!-- CONTRIBUTOR PROFILE -->
 <!-- Include: Name, title, job/search status, (opt) photo, (opt) summary of contributions, (opt) a few words or a quote, socials badges (github follow, linkedin, angellist, email, resume, portfolio, twitter, etc.), (opt) team/contact page from app's site -->
-<div align="center">
+
   <img 
     src="" 
     alt="Contributor photo" 
@@ -370,8 +372,6 @@ Optional *brief* message for those wishing to make contact.
 [![GitHub alimirakim](https://img.shields.io/github/followers/alimirakim?label=follow&style=social)](https://github.com/alimirakim) 
 
 <br clear="both">
-
-</div>
 
 <hr>
 
