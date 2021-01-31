@@ -12,6 +12,13 @@
   <hr>
 -->
 
+<!-- 
+  TODO Complete icon collection. Match it to shield list.
+  TOD Add self-photos.
+  TODO Add resume, cover letter, any other files.
+-->
+
+
 
 <!-- HEADER -->
 <div align="center">
@@ -20,10 +27,11 @@
   <!-- For how-to notes on shield badges, see docs: https://shields.io/ -->
   ![GitHub Icon](https://img.shields.io/badge/-Shield_Badge_Example-black?style=flat-square&logo=github&logoColor=ff00ff)
   ![Adobe Acrobat Reader Icon](https://img.shields.io/badge/-Shield_Badge_Example-ff00ff?style=flat-square&logo=adobe-acrobat-reader&logoColor=black) 
+  ![GitHub Icon](https://img.shields.io/badge/-Shield_Badge_Example-black?style=flat-square&logo=github&logoColor=ff00ff)
 
   <img 
-    src="" 
-    alt="Header logo" 
+    src="docs/images/logo.svg" 
+    alt="Logo" 
     title="" 
     width="100%">
 
@@ -31,13 +39,8 @@
   ## Subtitle
 
   <!-- TOC -->
-  **TOC** [About](#about) ● [Features](#features) ● [Instructions](#instructions) ● [Development](#development) ● [Contact](#contact)
-
-  <!-- WEBSITE LINK -->
-  **Try the app!** *(Includes demo mode)*  
-  <a href="">[Live Website]</a>
-  <!-- OPTIONAL Use an image button for extra fancy points. -->
-  <!-- <a href=""><img src="" alt="Button image to go to app site" title="Click to see the live site!"></a> -->
+  **TOC**  
+  [About](#about) ● [Features](#features) ● [How It Works](#how-it-works) ● [Installation](#installation) ● [Development](#development) ● [Contact](#contact)
 
   <!-- SUMMARY -->
   A 1-5 sentence summary of what the app is.  
@@ -46,32 +49,43 @@
   
   <!-- SPLASHY IMAGE -->
   <img 
-    src="" 
+    src="docs/images/splash.png" 
     alt="Splashy 100%-width image" 
     title="" 
     width="100%">
 
+  <!-- WEBSITE LINK -->
+  ### Try the Demo!
+  <a href="">[Live Website]</a>
+  <!-- OPTIONAL Use an image button for extra fancy points. -->
+  <!-- <a href=""><img src="" alt="Button image to go to app site" title="Click to see the live site!"></a> -->
+
 </div>
 
+---
 
 <!-- ABOUT -->
 <div align="center">
 
   ## About
 
-  [● Live Website ●]()  
+  [● See Website ●]()  
   *(Inspired by [app name]())*
 
 </div>
 
 <img src="" 
   alt="Animated gif example of app in action, or interesting detail, etc." 
-  title="">
+  title=""
+  width="50%"
+  align="left">
 
 Describe overview of app, themes and philosophy, inspiration, audience, or whatever... 1-2 paragraphs
 
+<br clear="both">
+
 <!-- OPTIONAL EXTRA IMAGE(S) -->
-<!-- Option 1: A 100%-width image. Can narrow slightly, like to 80%, too if desired. A screenshot with many details or a narrow row image may be good. -->
+<!-- Option 1: A single, centered 100%-width image. Can narrow, like to 80%, too if desired. A screenshot with many details or a narrow row image may be good. -->
 <div align="center">
   <img 
     src="" 
@@ -80,61 +94,32 @@ Describe overview of app, themes and philosophy, inspiration, audience, or whate
     width="100%">
 </div>
 
-<!-- Option 2: Two side-by-side images. 'width' attributes set to 48%. Ensure matching canvas ratios for the best appearance. Two rows combined can make a nice 'square' collage. May be food for a 'full-screen screenshots' gallery. -->
+<!-- Option 2: Multiple images in a row, 'width' attribute set to evenly split the x-axis space. Ensure matching canvas ratios for the best appearance. Two rows combined can make a nice 'square' collage. May be food for a 'full-screen screenshots' gallery. -->
 <div align="center">
   <img 
     src="" 
-    alt="Image 1/3" 
+    alt="Image 1" 
     title="" 
     width="48%">
   <img 
     src="" 
-    alt="Image 2/3" 
+    alt="Image 2" 
     title="" 
     width="48%">
 </div>
 
-<!-- Option 3: Three side-by-side images. 'width' attributes set to 32%. Ensure matching canvas ratios for the best appearance. May be good to highlight specific details and close-ups. -->
+<!-- Option 3: Multiple images in a row, 'height' attribute set to hard values to ensure matching heights. Good for images with different aspect ratios. -->
 <div align="center">
   <img 
     src="" 
-    alt="Image 1/3" 
+    alt="Image 1" 
     title="" 
-    width="32%">
+    height="500px">
   <img 
     src="" 
-    alt="Image 2/3" 
+    alt="Image 2" 
     title="" 
-    width="32%">
-  <img 
-    src="" 
-    alt="Image 3/3" 
-    title="" 
-    width="32%">
-</div>
-
-<!-- Option 4: Four side-by-side images. 'width' attributes set to 24%. Ensure matching canvas ratios for the best appearance. Suitable towards narrow images or images with few details. -->
-<div align="center">
-  <img 
-    src="" 
-    alt="Image 1/4" 
-    title="" 
-    width="24%">
-  <img 
-    src="" 
-    alt="Image 2/4" 
-    title="" 
-    width="24%">
-  <img 
-    src="" 
-    alt="Image 3/4" 
-    title="" 
-    width="24%">
-  <img 
-    src="" 
-    alt="Image 4/4" 
-    title="" 
-    width="24%">
+    height="500px">
 </div>
 
 
@@ -162,7 +147,7 @@ An optional *brief* note describing scheduling or other planning details.
 <!-- INSTRUCTIONS -->
 <div align="center">
 
-  ## Instructions
+  ## How It Works
 
   [1. Step One](#1-step-one)  
   [How to Use Cool Feature ABC!](#how-to-use-feature-abc)  
@@ -213,136 +198,132 @@ Repeat the pattern.
 Repeat the pattern.
 
 
+<div align="center">
+
+  ## Installation
+
+</div>
+
+1. Create a new postgres database and owner.
+2. Create a `.env` file matching the `.env.example` file and your new postgres information.
+3. Migrate the database with `npx sequelize-cli db:migrate`.
+4. Seed the migration with `npx sequelize-cli db:seed:all`.
+5. Run locally with `npm start`.
+
+### Get started on Heroku - Account, Database, Config Vars 
+1. Install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli), if you haven't done so already.
+2. Create a [free Heroku account](https://signup.heroku.com/dc).
+3. Login and [create a new Heroku app](https://dashboard.heroku.com/new-app).
+4. Navigate to the *Resources* tab an set up a 'Heroku Postgres' database for the app.
+5. Select the 'Hobby Dev - Free' plan.
+6. Navigate to the *Settings* tab. Click 'Reveal Config Vars'. Set the environment variables needed to run the app. 
+- **NOTE** NEVER check in `.env` files or any private keys. Environment variables set in an `.env` file won't work in Heroku anyway.
+- **NOTE** See the `DATABASE_URL` is already set. This is done when the Heroku Postgres database was set up. Therefore, `DB_USERNAME`, `DB_PASSWORD`, and `DB_DATABASE` arent' required.
+
+### Configure the app to use the Heroku Postgres database
+There are two ways to configure the `production` environment: 
+  1. With *dotenv* and a `.sequelizerc` file that points to a `config/database.js` file.
+  2. The Sequelize CLI's auto-generated `config.json` file.
+
+**With .sequelizerc and dotenv**
+Update the `config/database.js` file with a `production` key like so.
+
+``` js
+// config/database.js
+// ...
+module.exports = {
+  development: {
+    // ...
+  },
+  production: {
+    use_env_variable: 'DATABASE_URL',
+    dialect: 'postgres',
+    dialectOptions: {ssl: true},
+    seederStorage: 'sequelize',
+  }
+}
+```
+
+**With Sequelize CLI's config.json**
+Change the `production` entry to look like this:
+``` json
+"production": {
+  "dialect": "postgres",
+  "seederStorage": "sequelize",
+  "use_env_variable": "DATABASE_URL"
+}
+```
+
+### Push to Heroku
+1. In the root of the app's repo directory, log into Heroku with `heroku login`.
+2. Add a new remote to GitHub configuration with `heroku git:remote -a <<app-name-here>>`.
+3. Add all changes with `git add .`.
+4. Commit changes with `git commit -m "<<Add message here>>"`. (Optionally, `git commit -am` Adds and commits in one command.)
+5. Push changes to Heroku with `git push Heroku`.
+6. You should see a successful build image.
+``` bash
+# ...
+remote: -----> Launching...
+remote:        Released v5
+remote:        https://«your-app-name».herokuapp.com/ deployed to Heroku
+remote:
+remote: Verifying deploy... done.
+To https://git.heroku.com/«app-name-here».git
+```
+
+### Run migrations on Heroku
+1. To migrate your Heroku Postgres database, run the migration command prefaced with `heroku run` inside the repo. 
+
+``` bash
+heroku run npx sequelize-cli db:migrate
+```
+
+2. To seed, preface the seed command with `heroku run` as well.
+
+``` bash
+heroku run npx sequelize-cli db:seed:all
+```
+
+3. To roll back, instead of dropping the database, first try to migrate down and up (shown below). If this doesn't work, reset the entire database by removing and adding the 'Heroku Postgres' add-on again, then migrating and seeding as the first time.
+
+``` bash
+heroku run npx sequelize-cli db:seed:undo:all
+heroku run npx sequelize-cli db:migrate:undo:all
+heroku run npx sequelize-cli db:migrate
+heroku run npx sequelize-cli db:seed:all
+```
 
 
 <div align="center">
 
-## Development
+  ## Development
 
-**DEV TOC** [Technologies](#technologies) ● [Concept](#concept) ● [Models](#models) ● [Routes](#routes) ● [Wireframes](#wireframes) ● [Dev Snapshots](#development-snapshots)
+  **DEV TOC**  
+  [Technologies](docs/development.md#technologies) ● [Concept](docs/development.md#concept) ● [Models](docs/development.md#models) ● [Routes](docs/development.md#routes) ● [Wireframes](docs/development.md#wireframes) ● [Dev Snapshots](docs/development.md#development-snapshots)
+
+  This section is kept in a separate document [HERE](readme/development.md).  
+  It details the technical aspects of this project's development.  
+  A few sample snapshots are below from the development process.  
+
+  <img 
+    src="" 
+    alt="Snapshot 1"
+    title=""
+    height="250px">
+  <img 
+    src="" 
+    alt="Snapshot 2"
+    title=""
+    height="250px">
+  <img 
+    src="" 
+    alt="Snapshot 3"
+    title=""
+    height="250px">
 
 </div>
 
-### Technologies
-
-* Option 1: Just a list
-* Option 2: Icons (ex. simpleicons.org, FontAwesome)
-* Option 3: Shield badges
-* Bonus Add-on: Group by category. ex:
-  - **FRONTEND** JavaScript, React, Redux... 
-  - **BACKEND** Python, Flask...
-  - **CATEGORY C** Blah blah blah...
-
-### Concept
-
-**KEYWORDS**&nbsp;&nbsp;&nbsp;&nbsp;
-Refreshing, outdoorsy, clean and simple
-
-**FONTS**&nbsp;&nbsp;&nbsp;&nbsp;
-- Fancy Font Foo *(logo, h1s/decorative labels)*
-- Calibri (sans serif) *(body, p)*
-- Cambria (serif) *(h2-h4, subheaders, small labels)*
-
-**COLORS**&nbsp;&nbsp;&nbsp;&nbsp;
-- ![PRIMARY #FFFFFF Color Badge](https://img.shields.io/badge/-primary_hex_FFF-fff?style=flat-square)
-- color badge 2
-- color badge 3
-<!-- Color ideas: Primary, secondary, accent, highlight, warning, error, shadow, screen, logo -->
-
-**REFERENCES & INSPIRATION**
-- [Link A]() - Notes about the reference.  
-- [Link B]() - Notes  
-- [Link C]() - Notes  
-
-<!-- Gallery example: Three side-by-side images. 'width' attributes set to 32%. Ensure matching canvas ratios for the best appearance. May be good to highlight specific details and close-ups. -->
-<div align="center">
-  <img 
-    src="" 
-    alt="Image 1/3" 
-    title="" 
-    width="32%">
-  <img 
-    src="" 
-    alt="Image 2/3" 
-    title="" 
-    width="32%">
-  <img 
-    src="" 
-    alt="Image 3/3" 
-    title="" 
-    width="32%">
-</div>
-
-### Models
-
-Optional *brief* notes about models/database here.
-
-<div align="center">
-
-  **TABLES**  
-  [`table_1`](#table_1) | [`table_2`](#table_2) | [`table_3`](#table_3)
-  
-
-<div align="center">
-  <img 
-    src="" 
-    alt="Schema diagram" 
-    title="">
-</div>
-
-</div>
-
-#### `table_1`
-| Columns | Constraints |
-|---------|-------------|
-| id      | serial, pk  |
-|  |  |
-
-#### `table_2`
-| Columns | Constraints |
-|---------|-------------|
-| id      | serial, pk  |
-|  |  |
-
-#### `table_3`
-| Columns | Constraints |
-|---------|-------------|
-| id      | serial, pk  |
-|  |  |
-
-
-### Routes
-
-#### Frontend
-
-| METHOD | Route Path | Purpose |
-|--------|------------|---------|
-| GET    | `/`        | Splash page (auth), Home page (unauth) |
-|  |  |
-
-#### Backend
-
-**ROOT** `/users`&nbsp;&nbsp;&nbsp;&nbsp;
-| METHOD | Route Path | Purpose |
-|--------|------------|---------|
-| POST   | `/`        | Validate new account |
-|  |  |
-
-
-### Wireframes
-
-<div align="center">
-  <img 
-    src="" 
-    alt="Sketches, diagrams, screengrabs from similar sites for inspiration, mockups in devices like phone frames etc." 
-    title="">
-</div>
-
-
-### Development Snapshots
-
-Link to blog post(s) (dev blog, postmortems, etc), gallery of screenshots, code snippets, thoughts and writing from during dev process.
-
+---
 
 <!-- CONTACT -->
 <div align="center">
@@ -362,7 +343,9 @@ Optional *brief* message for those wishing to make contact.
     align="left">
 </div>
 
-**First Last Name** *(Position title, job/search status)*  
+### First Last Name
+*(Position title, job/search status)*  
+
 [![Portfolio](https://img.shields.io/badge/-❤_Portfolio-f58?style=flat-square&logo=a&logoColor=white&link=https://alimirakim.github.io/)](https://alimirakim.github.io) 
 <a href="readme/Kim_Mira_Alicia_Resume.pdf" download>![Resume PDF](https://img.shields.io/badge/-Resume-f00?style=flat-square&logo=adobe-acrobat-reader&logoColor=white)</a> 
 [![Alicia's email](https://img.shields.io/badge/alicia.mira.kim@gmail.com-f4b400?style=flat-square&logo=gmail&logoColor=black&link=mailto:alicia.mira.kim@gmail.com)](mailto:alicia.mira.kim@gmail.com) 
@@ -370,8 +353,6 @@ Optional *brief* message for those wishing to make contact.
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-0077b5?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/alicia-mira-kim-416a0a41)](https://www.linkedin.com/in/alicia-mira-kim-416a0a41) 
 [![AngelList](https://img.shields.io/badge/-AngelList-black?style=flat-square&logo=AngelList&logoColor=white&link=https://angel.co/u/alicia-mira-kim)](https://angel.co/u/alicia-mira-kim) 
 [![GitHub alimirakim](https://img.shields.io/github/followers/alimirakim?label=follow&style=social)](https://github.com/alimirakim) 
-
-<br clear="both">
 
 <hr>
 
