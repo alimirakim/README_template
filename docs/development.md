@@ -3,7 +3,7 @@
 # Development of App
 
 **DEV TOC**  
-[Technologies](#technologies) ● [Concept](#concept) ● [Models](#models) ● [Routes](#routes) ● [Wireframes](#wireframes) ● [Dev Snapshots](#development-snapshots) ● [Contact](#contact)
+[Technologies](docs/development.md#technologies) ● [Concept](docs/development.md#concept) ● [Models](docs/development.md#models) ● [Routes](docs/development.md#routes) ● [Wireframes](docs/development.md#wireframes) ● [Code Highlights](#code-highlights) ● [Dev Snapshots](docs/development.md#development-snapshots)
 
 This section details the technical aspects of this project's development. To see what Persistamp is, its features, and how to use it, see the [[ README ]](../README.md).
 
@@ -198,31 +198,46 @@ Link to blog post(s) (dev blog, postmortems, etc), gallery of screenshots, code 
 
 ---
 
+
 <!-- CONTACT -->
 <div align="center">
 
 ## Contact
 
-Optional *brief* message for those wishing to make contact.
+Thank you very much for your interest in this project.  
+Feel free to reach out to provide feedback, bug reports, or anything else :) .  
 
 <!-- CONTRIBUTOR PROFILE -->
 <!-- Include: Name, title, job/search status, (opt) photo, (opt) summary of contributions, (opt) a few words or a quote, socials badges (github follow, linkedin, angellist, email, resume, portfolio, twitter, etc.), (opt) team/contact page from app's site -->
 
   <img 
-    src="" 
-    alt="Contributor photo" 
-    title=""
+    src="docs/images/portrait.png" 
+    alt="Alicia Mira Kim" 
     height="100px"
     align="left">
 </div>
 
-### First Last Name
-*(Position title, job/search status)*  
+### Alicia Mira Kim
+*(Full-stack software developer, open to work)*  
 
 [![Portfolio](https://img.shields.io/badge/-❤_Portfolio-f58?style=flat-square&logo=a&logoColor=white&link=https://alimirakim.github.io/)](https://alimirakim.github.io) 
 <a href="readme/Kim_Mira_Alicia_Resume.pdf" download>![Resume PDF](https://img.shields.io/badge/-Resume-f00?style=flat-square&logo=adobe-acrobat-reader&logoColor=white)</a> 
 [![Alicia's email](https://img.shields.io/badge/alicia.mira.kim@gmail.com-f4b400?style=flat-square&logo=gmail&logoColor=black&link=mailto:alicia.mira.kim@gmail.com)](mailto:alicia.mira.kim@gmail.com) 
 [![Blog](https://img.shields.io/badge/-Blog-21759b?style=flat-square&logo=WordPress&logoColor=white&link=https://aliciamirakim.com/)](https://aliciamirakim.com) 
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-0077b5?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/alicia-mira-kim-416a0a41)](https://www.linkedin.com/in/alicia-mira-kim-416a0a41) 
+[![Twitter](https://img.shields.io/badge/-Twitter-1da1f2?style=flat-square&logo=Twitter&logoColor=white&link=https://twitter.com/alimirakim)](https://twitter.com/alimirakim) 
 [![AngelList](https://img.shields.io/badge/-AngelList-black?style=flat-square&logo=AngelList&logoColor=white&link=https://angel.co/u/alicia-mira-kim)](https://angel.co/u/alicia-mira-kim) 
 [![GitHub alimirakim](https://img.shields.io/github/followers/alimirakim?label=follow&style=social)](https://github.com/alimirakim) 
+
+</div>
+
+<br clear="both">
+
+---
+
+<div align="center">
+
+**💖 THANK YOU (ATTRIBUTIONS) 💖**  
+[Attribution 1 by Person A]() | [Attribution 2 by Person B]() | [Attribution 3 by Person C]()
+
+</div>

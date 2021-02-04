@@ -1,23 +1,7 @@
-<!-- 
-  Resources to consider:
-  TOCs
-  Emojis
-  Icons
-  Shield badges
-  Photos, screenshots, gifs, closeups, image buttons
-  Code snips
-  Tables
-  Lists
-  Quoteboxes 
-  <hr>
--->
 
 <!-- 
-  TODO Complete icon collection. Match it to shield list.
-  TOD Add self-photos.
-  TODO Add resume, cover letter, any other files.
+  TOD Add photos, resume, cover letter, any other files.
 -->
-
 
 
 <!-- HEADER -->
@@ -299,9 +283,10 @@ heroku run npx sequelize-cli db:seed:all
   ## Development
 
   **DEV TOC**  
-  [Technologies](docs/development.md#technologies) ● [Concept](docs/development.md#concept) ● [Models](docs/development.md#models) ● [Routes](docs/development.md#routes) ● [Wireframes](docs/development.md#wireframes) ● [Dev Snapshots](docs/development.md#development-snapshots)
+  [Technologies](docs/development.md#technologies) ● [Concept](docs/development.md#concept) ● [Models](docs/development.md#models) ● [Routes](docs/development.md#routes) ● [Wireframes](docs/development.md#wireframes) ● [Code Highlights](#code-highlights) ● [Dev Snapshots](docs/development.md#development-snapshots)
 
-  This section is kept in a separate document [HERE](readme/development.md).  
+  [[ See full dev notes HERE ]](readme/development.md)  
+  The full notes on this project's development are kept in a separate document linked above.  
   It details the technical aspects of this project's development.  
   A few sample snapshots are below from the development process.  
 
@@ -325,36 +310,42 @@ heroku run npx sequelize-cli db:seed:all
 
 ---
 
+
 <!-- CONTACT -->
 <div align="center">
 
 ## Contact
 
-Optional *brief* message for those wishing to make contact.
+Thank you very much for your interest in this project.  
+Feel free to reach out to provide feedback, bug reports, or anything else :) .  
 
 <!-- CONTRIBUTOR PROFILE -->
 <!-- Include: Name, title, job/search status, (opt) photo, (opt) summary of contributions, (opt) a few words or a quote, socials badges (github follow, linkedin, angellist, email, resume, portfolio, twitter, etc.), (opt) team/contact page from app's site -->
 
   <img 
-    src="" 
-    alt="Contributor photo" 
-    title=""
+    src="docs/images/portrait.png" 
+    alt="Alicia Mira Kim" 
     height="100px"
     align="left">
 </div>
 
-### First Last Name
-*(Position title, job/search status)*  
+### Alicia Mira Kim
+*(Full-stack software developer, open to work)*  
 
 [![Portfolio](https://img.shields.io/badge/-❤_Portfolio-f58?style=flat-square&logo=a&logoColor=white&link=https://alimirakim.github.io/)](https://alimirakim.github.io) 
-<a href="readme/Kim_Mira_Alicia_Resume.pdf" download>![Resume PDF](https://img.shields.io/badge/-Resume-f00?style=flat-square&logo=adobe-acrobat-reader&logoColor=white)</a> 
+<a href="docs/Kim-Mira-Alicia_Resume.pdf" download>![Resume PDF](https://img.shields.io/badge/-Resume-f00?style=flat-square&logo=adobe-acrobat-reader&logoColor=white)</a> 
 [![Alicia's email](https://img.shields.io/badge/alicia.mira.kim@gmail.com-f4b400?style=flat-square&logo=gmail&logoColor=black&link=mailto:alicia.mira.kim@gmail.com)](mailto:alicia.mira.kim@gmail.com) 
 [![Blog](https://img.shields.io/badge/-Blog-21759b?style=flat-square&logo=WordPress&logoColor=white&link=https://aliciamirakim.com/)](https://aliciamirakim.com) 
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-0077b5?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/alicia-mira-kim-416a0a41)](https://www.linkedin.com/in/alicia-mira-kim-416a0a41) 
+[![Twitter](https://img.shields.io/badge/-Twitter-1da1f2?style=flat-square&logo=Twitter&logoColor=white&link=https://twitter.com/alimirakim)](https://twitter.com/alimirakim) 
 [![AngelList](https://img.shields.io/badge/-AngelList-black?style=flat-square&logo=AngelList&logoColor=white&link=https://angel.co/u/alicia-mira-kim)](https://angel.co/u/alicia-mira-kim) 
 [![GitHub alimirakim](https://img.shields.io/github/followers/alimirakim?label=follow&style=social)](https://github.com/alimirakim) 
 
-<hr>
+</div>
+
+<br clear="both">
+
+---
 
 <div align="center">
 
@@ -362,21 +353,3 @@ Optional *brief* message for those wishing to make contact.
 [Attribution 1 by Person A]() | [Attribution 2 by Person B]() | [Attribution 3 by Person C]()
 
 </div>
-
-
-<!-- BONUS - OPTIONAL SECTIONS -->
-<!-- 
-<div align="center">
-
-  ## More Optional Sections
-
-</div>
-
-Ideas for optional sections or subsections:
-- F.A.Q.
-- Examples
-- Troubleshooting, Known Bugs
-- Local installation, Configurations
-- Running tests
-- Project Directory Tree 
--->

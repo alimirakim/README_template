@@ -4,6 +4,9 @@
 <!-- TODO Add color hex examples - hex AND 'label', like 'Primary' -->
 <!-- ![](https://img.shields.io/badge/--000?style=flat-square&logo=&logoColor=white) -->
 
+**SOCIAL BADGES**
+[![GitHub alimirakim](https://img.shields.io/github/followers/alimirakim?label=follow&style=social)](https://github.com/alimirakim) 
+
 
 **SYSTEMS**  
 ![Windows](https://img.shields.io/badge/-Windows-0078d6?style=flat-square&logo=Windows&logoColor=white)
@@ -24,11 +27,14 @@
 ![Opera](https://img.shields.io/badge/-Opera-ff1b2d?style=flat-square&logo=Opera&logoColor=white)
 
 **LANGUAGES**  
-![Ruby](https://img.shields.io/badge/-Ruby-cc342d?style=flat-square&logo=Ruby&logoColor=white)
-![Ruby On Rails](https://img.shields.io/badge/-Ruby_On_Rails-c00?style=flat-square&logo=Ruby-On-Rails&logoColor=white)
+![HTML5](https://img.shields.io/badge/-HTML5-e34f26?style=flat-square&logo=HTML5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572b6?style=flat-square&logo=CSS3&logoColor=white)
+![SASS](https://img.shields.io/badge/-SASS-c69?style=flat-square&logo=SASS&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776ab?style=flat-square&logo=Python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-f7df1e?style=flat-square&logo=JavaScript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square&logo=TypeScript&logoColor=white)
+![Ruby](https://img.shields.io/badge/-Ruby-cc342d?style=flat-square&logo=Ruby&logoColor=white)
+![Ruby On Rails](https://img.shields.io/badge/-Ruby_On_Rails-c00?style=flat-square&logo=Ruby-On-Rails&logoColor=white)
 ![C](https://img.shields.io/badge/-C-a8b9cc?style=flat-square&logo=C&logoColor=black)
 ![C++](https://img.shields.io/badge/-C++-00599c?style=flat-square&logo=C++&logoColor=white)
 ![C#](https://img.shields.io/badge/-C_Sharp-239120?style=flat-square&logo=C-sharp&logoColor=white)
@@ -42,9 +48,6 @@
 ![Scala](https://img.shields.io/badge/-Scala-dc322f?style=flat-square&logo=Scala&logoColor=white)
 ![Rust](https://img.shields.io/badge/-Rust-000?style=flat-square&logo=Rust&logoColor=white)
 ![JSON](https://img.shields.io/badge/-JSON-000?style=flat-square&logo=JSON&logoColor=white)
-![HTML5](https://img.shields.io/badge/-HTML5-e34f26?style=flat-square&logo=HTML5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572b6?style=flat-square&logo=CSS3&logoColor=white)
-![SASS](https://img.shields.io/badge/-SASS-c69?style=flat-square&logo=SASS&logoColor=white)
 ![Markdown](https://img.shields.io/badge/-Markdown-000?style=flat-square&logo=Markdown&logoColor=white)
 
 **FRONTEND**  
@@ -59,14 +62,6 @@
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952b3?style=flat-square&logo=Bootstrap&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-38b2ac?style=flat-square&logo=Tailwind-CSS&logoColor=white)
 
-**RESOURCES**  
-![Material Design Icons](https://img.shields.io/badge/-Material_Design_Icons-2196f3?style=flat-square&logo=Material-Design-Icons&logoColor=white)
-![Simple Icons](https://img.shields.io/badge/-Simple_Icons-111?style=flat-square&logo=Simple-Icons&logoColor=white)
-![Noun Project](https://img.shields.io/badge/-Noun_Project-000?style=flat-square&logo=Noun-Project&logoColor=white)
-![Pixabay](https://img.shields.io/badge/-Pixabay-2ec66d?style=flat-square&logo=Pixabay&logoColor=white)
-![Wikimedia Commons](https://img.shields.io/badge/-Wikimedia_Commons-069?style=flat-square&logo=Wikimedia-Commons&logoColor=white)
-![Font Awesome](https://img.shields.io/badge/-Font_Awesome-339af0?style=flat-square&logo=Font-Awesome&logoColor=white)
-
 **BACKEND**  
 ![Express](https://img.shields.io/badge/-Express-000?style=flat-square&logo=Express&logoColor=white)
 ![Node.js](https://img.shields.io/badge/-Node.js-393?style=flat-square&logo=Node.js&logoColor=white)
@@ -77,13 +72,11 @@
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=PostgreSQL&logoColor=white)
 ![Django](https://img.shields.io/badge/-Django-092e20?style=flat-square&logo=Django&logoColor=white)
 
-**IDES**  
+**IDES & TOOLS**  
 ![Visual Studio Code](https://img.shields.io/badge/-Visual_Studio_Code-007acc?style=flat-square&logo=Visual-Studio-Code&logoColor=white)
 ![PyCharm](https://img.shields.io/badge/-PyCharm-000?style=flat-square&logo=PyCharm&logoColor=white)
 ![Eclipse](https://img.shields.io/badge/-Eclipse-2c2255?style=flat-square&logo=Eclipse-IDE&logoColor=white)
 ![JetBrains](https://img.shields.io/badge/-JetBrains-000?style=flat-square&logo=JetBrains&logoColor=white)
-
-**TOOLS**  
 ![Insomnia](https://img.shields.io/badge/-Insomnia-5849be?style=flat-square&logo=Insomnia&logoColor=white)
 ![Postman](https://img.shields.io/badge/-Postman-ff6c37?style=flat-square&logo=Postman&logoColor=white)
 ![GitKraken](https://img.shields.io/badge/-GitKraken-179287?style=flat-square&logo=GitKraken&logoColor=white)
@@ -95,6 +88,14 @@
 ![Scratch](https://img.shields.io/badge/-Scratch-4d97ff?style=flat-square&logo=Scratch&logoColor=white)
 ![Unreal Engine](https://img.shields.io/badge/-Unreal_Engine-313131?style=flat-square&logo=Unreal-Engine&logoColor=white)
 ![Godot Engine](https://img.shields.io/badge/-Godot_Engine-478cbf?style=flat-square&logo=Godot-Engine&logoColor=white)
+
+**RESOURCES**  
+![Material Design Icons](https://img.shields.io/badge/-Material_Design_Icons-2196f3?style=flat-square&logo=Material-Design-Icons&logoColor=white)
+![Simple Icons](https://img.shields.io/badge/-Simple_Icons-111?style=flat-square&logo=Simple-Icons&logoColor=white)
+![Noun Project](https://img.shields.io/badge/-Noun_Project-000?style=flat-square&logo=Noun-Project&logoColor=white)
+![Pixabay](https://img.shields.io/badge/-Pixabay-2ec66d?style=flat-square&logo=Pixabay&logoColor=white)
+![Wikimedia Commons](https://img.shields.io/badge/-Wikimedia_Commons-069?style=flat-square&logo=Wikimedia-Commons&logoColor=white)
+![Font Awesome](https://img.shields.io/badge/-Font_Awesome-339af0?style=flat-square&logo=Font-Awesome&logoColor=white)
 
 **SERVICES & PLATFORMS**  
 ![WordPress](https://img.shields.io/badge/-WordPress-21759b?style=flat-square&logo=WordPress&logoColor=white)
@@ -206,7 +207,11 @@
 ![NPM](https://img.shields.io/badge/-NPM-cb3837?style=flat-square&logo=NPM&logoColor=white)
 ![.NET](https://img.shields.io/badge/-.NET-5c2d91?style=flat-square&logo=.NET&logoColor=white)
 ![Nodemon](https://img.shields.io/badge/-Nodemon-76d04b?style=flat-square&logo=Nodemon&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/-SQLAlchemy-d01f00?style=flat-square&logo=SQLAlchemy&logoColor=white)
 
+tailwind
+less
+prisma
 ![MATLAB](https://img.shields.io/badge/-MATLAB-000?style=flat-square&logo=MATLAB&logoColor=white)
 ![Pug](https://img.shields.io/badge/-Pug-000?style=flat-square&logo=Pug&logoColor=white)
 ![Notepad++](https://img.shields.io/badge/-Notepad++-90e59a?style=flat-square&logo=Notepad++&logoColor=white)
@@ -218,4 +223,3 @@ maya
 zbrush
 adobe stock
 ![Sequelize]
-![SQLAlchemy](https://img.shields.io/badge/-SQLAlchemy-d01f00?style=flat-square&logo=SQLAlchemy&logoColor=white)
